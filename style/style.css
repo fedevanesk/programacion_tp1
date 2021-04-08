@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(61, 231, 243);
+}
+
+/**
+.navbar{
+    position: absolute;
+    left: 5px;
+    margin-left: 40px;
+}
+**/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(61, 231, 243);
+    text-align: center;
+}
+
+ul.footer_names{
+    list-style-type: none;
+}
