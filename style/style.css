@@ -13,13 +13,31 @@ header{
     background-color: rgb(61, 231, 243);
 }
 
-/**
+
 .navbar{
     position: absolute;
     left: 5px;
     margin-left: 40px;
+    list-style-type: none;
 }
-**/
+
+.buscadorito{
+    overflow: hidden;
+    background-color: #d2eaee;
+    border: solid black 3px;
+}
+
+form{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
 
 footer{
     position: fixed;
