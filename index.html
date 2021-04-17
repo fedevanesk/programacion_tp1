@@ -4,46 +4,51 @@
     <meta charset="UTF-8">
     <title>LiMusic</title>
     <link rel="stylesheet" href="style/style.css">
-
-
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="style/imagenes/logo.jpg" alt="logo_music">
+        <nav>
+            <img src="style/imagenes/logotester.png" alt="logo_music">
 
-        <h1 class = "header">Home</h1>
+            <h1 class = "logoname">LiMusic</h1class></h1>
 
-        <!-- acá estuvo jero -->
-
-        <!--Cabecera-->
-        <div class ="buscadorito">
-        <form action="rdos_busqueda" method="GET">
-            <div>
-                <label for="busqueda">Buscar:  </label>
-                <input type="text" name="busqueda" value="">
+            <div class = "labeldepag">
+                <h1 class = "hometitle">Home</h1>
             </div>
-            <div>
-                <button type="submit">Search !</button>
+            <!-- acá estuvo jero -->
+
+            <!--Cabecera-->
+            <div class ="buscadorito">
+            <form action="rdos_busqueda" method="GET">
+                <div class = "busca">
+                    <label for="busqueda">Buscar:  </label>
+                    <input type="text" name="busqueda" value="">
+                </div>
+                <div class = "searchbutton">
+                    <button type="submit">Search !</button>
+                </div>
+            </form>
             </div>
-        </form>
-        </div>
 
 
-        <ul class = "navbar">
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="detalle_artista.html">Details</a></li>
-            <li><a href="generos.html">Genres</a></li>
-            <li><a href="playlist.html">Your Playlist</a></li>
-        </ul>
+            <ul class = "navoptions">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="detalle_artista.html">Details</a></li>
+                <li><a href="generos.html">Genres</a></li>
+                <li><a href="playlist.html">Your Playlist</a></li>
+            </ul>
 
+        </nav>
     </header>
-
     <footer>
         <ul class = "footer_names">
-            <li>Jerónmo Houlin</li>
-            <li>Fede</li>
-            <li>Oli</li>
+            <li class = "jero">Jerónmo Houlin</li>
+            <li class = "fede">Fede Vaneskeheian</li>
+            <li class = "oli">Oli Fodrini</li>
         </ul>
     </footer>
 </body>

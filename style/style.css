@@ -2,52 +2,159 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    color : white;
+    height: 100%;
+}
 
+/* -----------Nav Bar-------------- */
 header{
-    display: flex;
-    flex-wrap: wrap;
     height: 100px;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(37, 40, 73);
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(61, 231, 243);
+}
+img{
+    justify-content: flex-start;
+    height:109%;
+    width:18%;
 }
 
-
-.navbar{
-    position: absolute;
-    left: 5px;
-    margin-left: 40px;
-    list-style-type: none;
+.logoname{
+    font-family: 'Zen Dots', cursive;
+    justify-content: flex-end;
+    height:100%;
+    margin:0%;
+    width: 25%;
 }
 
+div.labeldepag{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 40%;
+    
+    justify-content: center;
+    align-items: center;
+}
+h1.hometitle{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+    height: 50%;
+    margin: 0%;
+    width: 25%;
+}
+
+/*Buscador*/
 .buscadorito{
+    justify-content: flex-start;
+    height: 100%;
+    width: 25%;
     overflow: hidden;
-    background-color: #d2eaee;
-    border: solid black 3px;
 }
 
 form{
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
+div.busca{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.busca label{
+    justify-content: flex-start;
+}
+div.searchbutton{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+div.searchbutton button{
+    width: 50%;
+    justify-content: flex-start;
+}
 
 
+
+/*Opciones*/
+.navoptions{
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+}
+.navoptions li{
+    height: 30%;
+    width: 50%;
+    margin: 1% 1% 1% 1%;
+}
+.navoptions li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* -----------Footer-------------- */
 footer{
+    display: flex;
+    flex-wrap: wrap;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(61, 231, 243);
-    text-align: center;
+    height: 80px;
+    background-color:rgb(37, 40, 73);
 }
 
 ul.footer_names{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+
     list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+.jero{
+    flex-direction: row;
+    padding: 1% 1% 1% 1%;
+}
+.fede{
+    flex-direction: row;
+    padding: 1% 1% 1% 1%;
+}
+.oli{
+    flex-direction: row;
+    padding: 1% 1% 1% 1%;
+}
+
+/*--------------------------------------------------------
+----------------------------------------------------------
+Hasta acá es el mismo HTML & CSS para todas las paginas
+----------------------------------------------------------
+----------------------------------------------------------*/
+
