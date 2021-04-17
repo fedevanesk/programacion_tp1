@@ -1,0 +1,38 @@
+/* css del body */
+header.headerblock{
+    margin-top: 10%;
+    font-size: 45px;
+}
+.listablock{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 30%;
+    width: 100%;
+}
+
+.contenedorblock{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nombreblock{
+    justify-content: flex-start;
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.imagenesblock{
+    height: 40%;
+    width: 30%;
+}
+
+.pullup{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
