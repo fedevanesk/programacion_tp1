@@ -20,8 +20,8 @@ body{
     height: 150px;
 }
 nav{
-    height: 100%;
-    width: 109%;
+    height: 90%;
+    width: 99%;
     background-color: rgb(1, 2, 14);
     display: flex;
     flex-wrap: nowrap;
