@@ -1,0 +1,108 @@
+/* css del body */
+header.headerblock{
+    margin-top: 10%;
+    font-size: 45px;
+}
+.listablock{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 30%;
+    width: 100%;
+}
+
+.contenedorblock{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nombreblock{
+    justify-content: flex-start;
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.imagenesblock{
+    height: 40%;
+    width: 30%;
+}
+
+.pullup{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+
+/* css de playlist */
+.headerplay{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 45px;
+}
+
+.listaplay{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.contenedorplay{
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(3, 6, 51);
+    border: dotted 3px rgb(255, 0, 221);
+}
+
+.nombreplay{    
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    height: 100%; 
+    width: 30%;
+}
+
+.playsong{
+    list-style: none;
+}
+
+.imagenesplay{
+    height: 20%;
+    width: 20%;
+}
+/* generos html */
+.topgenre{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    font-size: 45px;
+}
+.genr{
+    text-align: center;
+    font-size: 25px; 
+    padding-bottom: 20px;
+}
+/* detalles generos */
+.h3s{
+    text-align: justify;
+    font-size: 35px;
+    text-decoration: double underline;
+}
+.list{
+    text-align: start;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
