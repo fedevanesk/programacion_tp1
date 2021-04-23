@@ -83,3 +83,10 @@ header.headerblock{
     height: 20%;
     width: 20%;
 }
+/* generos html */
+.topgenre{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 45px;
+}
+
