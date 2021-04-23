@@ -92,6 +92,17 @@ header.headerblock{
 }
 .genr{
     text-align: center;
-    font-size: large; 
+    font-size: 25px; 
+    padding-bottom: 20px;
+}
+/* detalles generos */
+.h3s{
+    text-align: justify;
+    font-size: 35px;
+    text-decoration: double underline;
+}
+.list{
+    text-align: start;
+    font-size: 25px;
     padding-bottom: 20px;
 }
